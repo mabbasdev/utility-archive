@@ -589,6 +589,22 @@ a {
     color: #3178c6;
 }
 
+.ti-hostinger {
+    color: #6736d5;
+}
+
+.ti-elementor-pro {
+    color: #9203b2;
+}
+
+.ti-php {
+    color: #777bb4;
+}
+
+.ti-mysql {
+    color: #00758f;
+}
+
 .card-cat-badge {
     position: absolute;
     top: 10px;
@@ -676,6 +692,31 @@ a {
 .tag-elem {
     background: #fce7f3;
     color: #9d174d;
+}
+
+.tag-ts {
+    background: #e0e7ff;
+    color: #3730a3;
+}
+
+.tag-hostinger {
+    background: #ede9fe;
+    color: #5b21b6;
+}
+
+.tag-php {
+    background: #e0e7ff;
+    color: #4338ca;
+}
+
+.tag-mysql {
+    background: #dbeafe;
+    color: #075985;
+}
+
+.tag-elementor-pro {
+    background: #fae8ff;
+    color: #a21caf;
 }
 
 .card-foot {

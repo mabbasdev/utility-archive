@@ -10,7 +10,12 @@ const TECH = {
     React: { fa: 'fab fa-react', color: '#61dafb', iconCls: 'ti-react', tagCls: 'tag-react' },
     'Node.js': { fa: 'fab fa-node-js', color: '#68a063', iconCls: 'ti-node', tagCls: 'tag-node' },
     WordPress: { fa: 'fab fa-wordpress', color: '#21759b', iconCls: 'ti-wp', tagCls: 'tag-wp' },
-    Elementor: { fa: 'fas fa-layer-group', color: '#e63c93', iconCls: '', tagCls: 'tag-elem' },
+    TypeScript: { fa: 'fab fa-js', color: '#3178c6', iconCls: 'ti-ts', tagCls: 'tag-ts' },
+    Elementor: { fa: 'fab fa-elementor', color: '#9203b2', iconCls: 'ti-elementor-pro', tagCls: 'tag-elementor-pro' },
+    'Elementor Pro': { fa: 'fab fa-elementor', color: '#9203b2', iconCls: 'ti-elementor-pro', tagCls: 'tag-elementor-pro' },
+    Hostinger: { fa: 'fas fa-globe', color: '#6736d5', iconCls: 'ti-hostinger', tagCls: 'tag-hostinger' },
+    PHP: { fa: 'fab fa-php', color: '#777bb4', iconCls: 'ti-php', tagCls: 'tag-php' },
+    MySQL: { fa: 'fas fa-database', color: '#00758f', iconCls: 'ti-mysql', tagCls: 'tag-mysql' },
 };
 
 /* ── PROJECT DATA ──────────────────────────────────────────────────── */
@@ -266,7 +271,7 @@ const PROJECTS = [
             'Structuring FAQ sections with accordion functionality for better UX',
             'Deploying a production-ready WordPress site on Hostinger with proper configuration'
         ],
-        tech: ['WordPress', 'CSS', 'Elementor Pro', 'Hello Theme', 'Hostinger'],
+        tech: ['WordPress', 'CSS', 'Elementor Pro', 'Hostinger'],
         github: '#',
         demo: 'https://mediazen.gatherknow.com/',
         thumbnail: 'assets/img/mediazen.png'
@@ -293,7 +298,7 @@ const PROJECTS = [
             'Creating download functionality for newspaper content',
             'Working with WordPress custom code without breaking theme updates'
         ],
-        tech: ['WordPress', 'CSS', 'JavaScript', 'Soledad Theme', 'Hostinger'],
+        tech: ['WordPress', 'CSS', 'JavaScript', 'Hostinger'],
         github: '#',
         demo: 'https://simplemetro.gatherknow.com/',
         thumbnail: 'assets/img/metromail.png'
@@ -324,7 +329,7 @@ const PROJECTS = [
             'Creating simple UI that handles complex API orchestration',
             'Understanding call center lead verification and compliance requirements'
         ],
-        tech: ['HTML', 'CSS', 'JavaScript', 'Jornaya API', 'Trusted Forms API', 'Google Sheets API'],
+        tech: ['HTML', 'CSS', 'JavaScript'],
         github: '#',
         demo: 'https://call.gatherknow.com/',
         thumbnail: 'assets/img/trustedforms.png'
@@ -357,7 +362,7 @@ const PROJECTS = [
             'Understanding client rejection (they preferred social media over website)',
             'Completing full projects at premium quality even when clients don\'t buy'
         ],
-        tech: ['WordPress', 'Elementor Pro', 'CSS', 'Real Estate Map API'],
+        tech: ['WordPress', 'Elementor Pro', 'CSS'],
         github: '#',
         demo: 'https://winwin.gatherknow.com/',
         thumbnail: 'assets/img/winwin.png'
