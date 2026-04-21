@@ -125,7 +125,7 @@ const PROJECTS = [
     {
         id: 5,
         mainIcon: 'fas fa-palette',
-        category: 'Developer Tool',
+        category: 'JavaScript',
         name: 'CSS Gradient Generator',
         short: 'Random gradient generator with live preview and one-click CSS copy.',
         about: 'A lightweight browser-based gradient generator tool that lets you create random linear gradients and copy CSS code instantly. Built with vanilla JavaScript to help designers find matching gradient colors quickly without opening design tools.',
@@ -396,11 +396,11 @@ const PROJECTS = [
 ];
 
 /* ── CATEGORIES ─────────────────────────────────────────────────────── */
-const CATS = ['All', 'JavaScript', 'React', 'HTML/CSS', 'WordPress'];
+const CATS = ['All', 'JavaScript', 'PHP', 'HTML/CSS', 'WordPress'];
 const CAT_ICON = {
     All: '<i class="fas fa-border-all"></i>',
     JavaScript: '<i class="fab fa-js"></i>',
-    React: '<i class="fab fa-react"></i>',
+    PHP: '<i class="fab fa-php"></i>',
     'HTML/CSS': '<i class="fab fa-html5"></i>',
     WordPress: '<i class="fab fa-wordpress"></i>'
 };
