@@ -1,0 +1,186 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, viewport-fit=cover">
+    <title>Utility Archive | Muhammad Abbas</title>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Inter:opsz,wght@14..32,400;14..32,500;14..32,600;14..32,700;14..32,800&family=Poppins:wght@600;700;800;900&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+    <link rel="shortcut icon" href="favicon.png" type="image/png">
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <!-- HEADER -->
+    <header id="mainHeader">
+        <div class="header-container">
+            <a href="#" class="logo-link">
+                <div class="logo-icon"><i class="fas fa-code"></i></div>
+                <span class="logo-text">Utility<span class="logo-hl">Archive</span></span>
+            </a>
+            <div class="header-right">
+                <a href="https://linkedin.com/in/mabbasdev" target="_blank" class="hdr-link hide-sm">
+                    <i class="fas fa-user"></i> LinkedIn
+                </a>
+                <a href="https://github.com/mabbasdev" target="_blank" class="hdr-link">
+                    <i class="fab fa-github"></i> GitHub
+                </a>
+            </div>
+        </div>
+    </header>
+
+    <!-- HERO -->
+    <section class="hero-section">
+        <div class="hero-bg-pattern"></div>
+        <div class="hero-content">
+            <div class="hero-badge">
+                <i class="fas fa-bolt"></i> HTML · CSS · JavaScript · React · WordPress
+            </div>
+            <h1 class="hero-title">
+                Everything I've<br>
+                <span class="hero-hl">Built &amp; Shipped.</span>
+            </h1>
+            <p class="hero-subtitle">
+                A collection of frontend projects and WordPress builds. <br>
+                Built to solve a real problem, document a concept, or sharpen a skill.
+            </p>
+            <div class="hero-btns">
+                <button class="btn-primary" id="heroBrowseBtn">
+                    <i class="fas fa-layer-group"></i> Browse Projects
+                </button>
+                <a href="https://github.com/mabbasdev" target="_blank" class="btn-secondary">
+                    <i class="fab fa-github"></i> GitHub Profile
+                </a>
+            </div>
+            <div class="hero-stats">
+                <div><span class="stat-val">12+</span><span class="stat-lbl">Projects</span></div>
+                <div><span class="stat-val">100%</span><span class="stat-lbl">Open Source</span></div>
+                <div><span class="stat-val">Live</span><span class="stat-lbl">Demos</span></div>
+            </div>
+        </div>
+    </section>
+
+    <!-- SEARCH -->
+    <div class="search-section">
+        <div class="search-wrap">
+            <i class="fas fa-search search-ico"></i>
+            <input type="text" id="searchInput" class="search-input" placeholder="Search projects, tech stack…"
+                autocomplete="off">
+            <button id="clearSearch" class="clear-btn" style="display:none">
+                <i class="fas fa-times"></i>
+            </button>
+        </div>
+    </div>
+
+    <!-- CATEGORY BAR -->
+    <div class="cat-bar">
+        <div id="catFilters" class="cat-filters"></div>
+    </div>
+
+    <!-- PROJECTS -->
+    <main class="projects-wrap">
+        <div class="sec-header">
+            <h2 class="sec-title" id="secTitle">All <span>Projects</span></h2>
+            <span class="sec-count" id="secCount"></span>
+        </div>
+        <div id="projectsGrid" class="projects-grid"></div>
+    </main>
+
+    <!-- FOOTER -->
+    <footer class="site-footer">
+        <div class="footer-top">
+            <div>
+                <div class="ft-logo">
+                    <div class="logo-icon"><i class="fas fa-code"></i></div>
+                    <span class="ft-logo-text">Utility<span style="color:var(--orange)">Archive</span></span>
+                </div>
+                <p class="ft-bio">A documented archive of frontend projects by Muhammad Abbas</p>
+                <div class="ft-socials">
+                    <a href="https://github.com/mabbasdev" target="_blank" class="ft-social" title="GitHub"> <i
+                            class="fab fa-github"></i></a>
+                    <a href="https://linkedin.com/in/mabbasdev" target="_blank" class="ft-social" title="LinkedIn"> <i
+                            class="fab fa-linkedin-in"></i></a>
+                    <a href="https://gatherknow.com" target="_blank" class="ft-social" title="GatherKnow"><i
+                            class="fas fa-pen-nib"></i></a>
+                </div>
+            </div>
+            <div>
+                <h4 class="ft-col-title"><i class="fas fa-link"></i> Quick Links</h4>
+                <ul class="ft-links">
+                    <li><a href="https://github.com/mabbasdev" target="_blank"><i class="fab fa-github"></i> GitHub</a>
+                    </li>
+                    <li><a href="https://linkedin.com/in/mabbasdev" target="_blank"><i class="fab fa-linkedin"></i>
+                            LinkedIn</a></li>
+                    <li><a href="https://gatherknow.com" target="_blank"><i class="fas fa-pen-nib"></i> GatherKnow
+                            Blog</a></li>
+                </ul>
+            </div>
+            <div>
+                <h4 class="ft-col-title"><i class="fas fa-layer-group"></i> Tech Stack</h4>
+                <div class="ft-stack">
+                    <span class="ft-stag">HTML</span>
+                    <span class="ft-stag">CSS</span>
+                    <span class="ft-stag">JavaScript</span>
+                    <span class="ft-stag">PHP</span>
+                    <span class="ft-stag">MySQL</span>
+                    <span class="ft-stag">React</span>
+                    <span class="ft-stag">Node.js</span>
+                    <span class="ft-stag">WordPress</span>
+                    <span class="ft-stag">Elementor</span>
+                </div>
+            </div>
+        </div>
+        <div class="footer-bottom">
+            <p>&copy; 2026 Muhammad Abbas · <a href="https://github.com/mabbasdev" target="_blank">@mabbasdev</a> · All
+                rights reserved</p>
+            <p>Built with <i class="fas fa-heart" style="color:var(--orange)"></i> for developers</p>
+        </div>
+    </footer>
+
+    <!-- SCROLL TOP -->
+    <button id="scrollTopBtn" style="display:none" aria-label="Back to top">
+        <i class="fas fa-arrow-up"></i>
+    </button>
+
+    <!-- MODAL -->
+    <div id="projectModal" class="p-modal" style="display:none" role="dialog" aria-modal="true">
+        <div class="modal-overlay" id="modalOverlay"></div>
+        <div class="modal-box">
+            <div class="modal-hd">
+                <div class="modal-hd-pattern"></div>
+                <button class="modal-close" id="closeModal" aria-label="Close"><i class="fas fa-times"></i></button>
+                <div class="modal-icon-wrap"><i id="mIconEl"></i></div>
+                <h2 class="modal-name" id="mName"></h2>
+                <p class="modal-meta" id="mMeta"></p>
+            </div>
+            <div class="modal-body-scroll">
+                <div class="modal-sec">
+                    <div class="modal-sec-label">About this project</div>
+                    <p class="modal-about" id="mAbout"></p>
+                </div>
+                <div class="modal-sec">
+                    <div class="modal-sec-label">Key Features</div>
+                    <ul class="modal-features" id="mFeatures"></ul>
+                </div>
+                <div class="modal-sec">
+                    <div class="modal-sec-label">Tech Stack</div>
+                    <div class="modal-tech-row" id="mTechRow"></div>
+                </div>
+            </div>
+            <div class="modal-foot">
+                <a href="#" id="mGhBtn" target="_blank" class="m-btn m-btn-gh"> <i class="fab fa-github"></i> View on
+                    GitHub</a>
+                <a href="#" id="mDemoBtn" target="_blank" class="m-btn m-btn-demo"><i
+                        class="fas fa-external-link-alt"></i> Live Demo</a>
+            </div>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+
+</html>
