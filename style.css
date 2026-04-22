@@ -605,6 +605,10 @@ a {
     color: #00758f;
 }
 
+.ti-ajax {
+    color: #2c9cd4;
+}
+
 .card-cat-badge {
     position: absolute;
     top: 10px;
@@ -717,6 +721,11 @@ a {
 .tag-elementor-pro {
     background: #fae8ff;
     color: #a21caf;
+}
+
+.tag-ajax {
+    background: #e0f2fe;
+    color: #0369a1;
 }
 
 .card-foot {

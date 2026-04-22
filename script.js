@@ -16,6 +16,7 @@ const TECH = {
     Hostinger: { fa: 'fas fa-globe', color: '#6736d5', iconCls: 'ti-hostinger', tagCls: 'tag-hostinger' },
     PHP: { fa: 'fab fa-php', color: '#777bb4', iconCls: 'ti-php', tagCls: 'tag-php' },
     MySQL: { fa: 'fas fa-database', color: '#00758f', iconCls: 'ti-mysql', tagCls: 'tag-mysql' },
+    AJAX: { fa: 'fas fa-sync-alt', color: '#2c9cd4', iconCls: 'ti-ajax', tagCls: 'tag-ajax' },
 };
 
 /* ── PROJECT DATA ──────────────────────────────────────────────────── */
@@ -428,6 +429,7 @@ const PROJECTS = [
         tech: ['PHP', 'MySQL', 'JavaScript', 'HTML', 'CSS', 'AJAX'],
         github: 'https://github.com/mabbasdev/chat-app',
         demo: 'https://chat-app.gatherknow.com/',
+        thumbnail: 'assets/img/chat-app.png',
     }
 ];
 
