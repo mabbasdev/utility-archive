@@ -397,6 +397,37 @@ const PROJECTS = [
         github: 'https://github.com/mabbasdev/js-yt-thumbnail-downloader',
         demo: 'https://thumbnail.gatherknow.com/',
         thumbnail: 'assets/img/thumbnail-downloader.png'
+    },
+    {
+        id: 14,
+        mainIcon: 'fas fa-comments',
+        category: 'PHP',
+        name: 'Realtime Chat App',
+        short: 'Full-featured realtime chat app with PHP, MySQL, and AJAX polling.',
+        about: 'A full-featured realtime chat application built with PHP, MySQL, and vanilla JavaScript. Features user authentication, profile image uploads, real-time messaging using AJAX polling, persistent chat history, online/offline user status, and responsive design.',
+        features: [
+            'User signup and login with secure password hashing',
+            'Profile image upload during registration',
+            'Real-time messaging with AJAX polling (no page refresh)',
+            'User list with online/offline status indicators',
+            'Persistent chat history stored in MySQL database',
+            'Search users to find and start conversations',
+            'Session-based authentication with protected routes',
+            'Fully responsive design for mobile and desktop'
+        ],
+        learnings: [
+            'Building complete authentication system with PHP sessions and password_hash()',
+            'Achieving real-time functionality without WebSockets using AJAX polling',
+            'Handling secure file uploads with validation (type, size, unique naming)',
+            'Designing MySQL database schema for one-to-many messaging relationships',
+            'Implementing asynchronous message sending/receiving with XMLHttpRequest',
+            'Managing user sessions and protecting routes from unauthorized access',
+            'Creating responsive chat UI that works across all devices',
+            'Writing efficient database queries for chat history retrieval'
+        ],
+        tech: ['PHP', 'MySQL', 'JavaScript', 'HTML', 'CSS', 'AJAX'],
+        github: 'https://github.com/mabbasdev/chat-app',
+        demo: 'https://chat-app.gatherknow.com/',
     }
 ];
 
